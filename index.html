@@ -2,10 +2,116 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-    <title>Christina Lambiase's Website</title>
+    <title>Christina Lambiase</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="script.js"></script>
+  <body class>
+    <div id="wrapper" class="divided">
+    <!--Banner-->
+    <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+      <div class="content">
+        <h1>Hi there</h1>
+        <p class="major">Welcome to my website. Aspiring software engineer, published poet, amateur photographer, and lover of dogs</p>
+        <p>Take a look around and drop me a line with any questions or just to say hey</p>
+        <ul class="actions stacked">
+          <li><a href="#first" class="button large wide smooth-scroll-middle">Get Started</a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="https://html5up.net/uploads/demos/story/images/banner.jpg" alt="">
+      </div>
+    </section>  
+    <!--About Me-->
+    <section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+      <div class="content">
+        <h2>About Me</h2>
+        <p>Add about me content here.</p>
+        <ul class="actions stacked">
+          <li><a href="#" class="button">Resume</a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="https://html5up.net/uploads/demos/story/images/spotlight01.jpg" alt="">
+      </div>
+    </section>
+    <!--Portfolio-->
+    <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+      <div class="content">
+        <h2>Portfolio</h2>
+        <p>This will be the section to point to my portfolio of projects</p>
+        <ul class="actions stacked">
+          <li><a href="#" class="button">Learn More</a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="https://html5up.net/uploads/demos/story/images/spotlight02.jpg" alt="">
+      </div>
+    </section>
+    <!--Contact Form-->
+    <section class="wrapper style1 align-center">
+      <div class="inner">
+    <div class="index-align-left">
+    <section>
+      <header>
+        <h3>Contact</h3>
+      </header>
+      <div class="content">
+
+        <form method="post" action="#">
+          <div class="fields">
+            <div class="field half">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" value="">
+            </div>
+            <div class="field half">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" value="">
+            </div>
+            <div class="field">
+              <label for="department">Department</label>
+              <select name="department" id="department">
+                <option value="">- Category -</option>
+                <option value="1">Manufacturing</option>
+                <option value="2">Shipping</option>
+                <option value="3">Administration</option>
+                <option value="4">Human Resources</option>
+              </select>
+            </div>
+            <div class="field third">
+              <input type="radio" id="priority-low" name="priority" checked="">
+              <label for="priority-low">Low Priority</label>
+            </div>
+            <div class="field third">
+              <input type="radio" id="priority-normal" name="priority">
+              <label for="priority-normal">Normal Priority</label>
+            </div>
+            <div class="field third">
+              <input type="radio" id="priority-high" name="priority">
+              <label for="priority-high">High Priority</label>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="6"></textarea>
+            </div>
+            <div class="field half">
+              <input type="checkbox" id="copy" name="copy">
+              <label for="copy">Email me a copy of this message</label>
+            </div>
+            <div class="field half">
+              <input type="checkbox" id="human" name="human" checked="">
+              <label for="human">I am a human and not a robot</label>
+            </div>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" name="submit" id="submit" value="Send Message"></li>
+          </ul>
+        </form>
+
+      </div>
+    </section>
+    </div>
+      </div>
+    </section>
+  <!--script-->
+  <script src="script.js"></script>
   </body>
 </html>
