@@ -1,3 +1,12 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
 
+const inputs = document.querySelectorAll(".button");
+inputs.forEach(input => {
+    input.addEventListener('click', function() {
+        alert('Coming Soon!');
+    })
+});
+
+const input = document.getElementById("submit");
+input.addEventListener('click', function() {
+    alert('Stay Tuned!');
+});
