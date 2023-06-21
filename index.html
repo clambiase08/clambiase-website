@@ -70,35 +70,35 @@
               <label for="reason">Reason for contacting</label>
               <select name="reason" id="reason">
                 <option value="">- Reason -</option>
-                <option value="1">Learn More</option>
-                <option value="2">Freelance Request</option>
-                <option value="3">Say Hello</option>
+                <option value="Learn More">Learn More</option>
+                <option value="Freelance Request">Freelance Request</option>
+                <option value="Say Hello">Say Hello</option>
               </select>
             </div>
             <div class="field third">
-              <input type="radio" id="priority-low" name="priority" checked="">
+              <input type="radio" id="priority-low" name="priority" value="low" checked="">
               <label for="priority-low">Low Priority</label>
             </div>
             <div class="field third">
-              <input type="radio" id="priority-normal" name="priority">
+              <input type="radio" id="priority-normal" name="priority" value="normal">
               <label for="priority-normal">Normal Priority</label>
             </div>
             <div class="field third">
-              <input type="radio" id="priority-high" name="priority">
+              <input type="radio" id="priority-high" name="priority" value="high">
               <label for="priority-high">High Priority</label>
             </div>
             <div class="field">
               <label for="message">Message</label>
               <textarea name="message" id="message" rows="6"></textarea>
             </div>
-            <div class="field half">
+            <!-- <div class="field half">
               <input type="checkbox" id="copy" name="copy">
               <label for="copy">Email me a copy of this message</label>
             </div>
             <div class="field half">
               <input type="checkbox" id="human" name="human" checked="">
               <label for="human">I am a human and not a robot</label>
-            </div>
+            </div> -->
           </div>
           <ul class="actions">
             <li><input type="submit" name="submit" id="submit" value="Send Message"></li>

@@ -13,7 +13,7 @@ function handleSubmit(e) {
         priority: e.target.priority.value,
         message: e.target.message.value
     }
-    contactForm.reset()
+    e.target.reset()
     submitForm(messageObj)
 }
 
@@ -52,3 +52,29 @@ input2.addEventListener('click', function() {
 //}
 
 //addEventListenerToSubmitButton()
+
+
+// const url = "https://data.cityofnewyork.us/api/views/p94q-8hxh" // CityBike Data from data.gov
+// const data = fetch(url)
+
+// console.log(data) // Promise {<pending>} 
+
+// const url = "https://data.cityofnewyork.us/api/views/p94q-8hxh" // CityBike Data from data.gov
+// fetch(url).then(console.log)
+
+
+// const url = "https://data.cityofnewyork.us/api/views/p94q-8hxh" // CityBike Data from data.gov
+// fetch(url)
+//   .then(function(response){
+//     return response.json()
+//   }).then(console.log)
+
+
+// const url = "https://data.cityofnewyork.us/api/views/p94q-8hxh" // CityBike Data from data.gov
+
+// getJSON(url).then(console.log)
+
+// function getJSON(url) {
+//     return fetch(url)
+//     .then(res=>res.json())
+// }
