@@ -607,3 +607,13 @@ ul.actions.stacked li:first-child {
 #projects-title {
   text-align: center;
 }
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#visits {
+  margin-left: 5px;
+  margin-right: 5px;
+}
